@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="cost_km_15000_km" table="x_343138_fleet_m_0_vehicles">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="cost_km_15_000_km" table="x_343138_fleet_m_0_vehicles">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>COST-KM-15000-KM</column_label>
+        <column_label>COST-KM-15.000-KM</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>cost_km_15000_km</element>
+        <element>cost_km_15_000_km</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-15 17:25:55</sys_created_on>
-        <sys_id>309039562f7730105197e93df699b6ec</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>COST-KM-15000-KM</sys_name>
+        <sys_created_on>2021-11-15 21:31:41</sys_created_on>
+        <sys_id>fcc822d62f3b30105197e93df699b689</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>COST-KM-15.000-KM</sys_name>
         <sys_package display_value="Fleet Management" source="x_343138_fleet_m_0">fbad2d922f7730105197e93df699b6c4</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Management">fbad2d922f7730105197e93df699b6c4</sys_scope>
-        <sys_update_name>sys_dictionary_x_343138_fleet_m_0_vehicles_cost_km_15000_km</sys_update_name>
+        <sys_update_name>sys_dictionary_x_343138_fleet_m_0_vehicles_cost_km_15_000_km</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-15 21:01:56</sys_updated_on>
+        <sys_updated_on>2021-11-15 22:10:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

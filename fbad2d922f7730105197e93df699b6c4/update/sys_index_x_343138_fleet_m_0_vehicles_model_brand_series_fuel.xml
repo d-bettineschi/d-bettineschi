@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>model,brand,series,fuel</col_name_string>
+        <index_col_name>baf131d62f7730105197e93df699b635,4520f1162f7730105197e93df699b650,c432f1d62f7730105197e93df699b69a,b5d17d962f7730105197e93df699b666</index_col_name>
+        <logical_table_name>x_343138_fleet_m_0_vehicles</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-11-15 22:12:37</sys_created_on>
+        <sys_id>0e423ed62f7b30105197e93df699b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_343138_fleet_m_0_vehicles</sys_name>
+        <sys_package display_value="Fleet Management" source="x_343138_fleet_m_0">fbad2d922f7730105197e93df699b6c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Management">fbad2d922f7730105197e93df699b6c4</sys_scope>
+        <sys_update_name>sys_index_x_343138_fleet_m_0_vehicles_model_brand_series_fuel</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-11-15 22:12:37</sys_updated_on>
+        <table display_value="Vehicles" name="x_343138_fleet_m_0_vehicles">f55f25162f7730105197e93df699b622</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>
