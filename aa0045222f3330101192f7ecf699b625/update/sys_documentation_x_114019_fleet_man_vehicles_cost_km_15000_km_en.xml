@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="cost_km_15000_km" label="COST-KM-15000-KM" language="en" table="x_114019_fleet_man_vehicles">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cost_km_15000_km</element>
+            <help/>
+            <hint/>
+            <label>COST-KM-15000-KM</label>
+            <language>en</language>
+            <name>x_114019_fleet_man_vehicles</name>
+            <plural>COST-KM-15000-KMs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-16 08:46:26</sys_created_on>
+            <sys_id>d6538dae2f3330101192f7ecf699b6c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>COST-KM-15000-KM</sys_name>
+            <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
+            <sys_update_name>sys_documentation_x_114019_fleet_man_vehicles_cost_km_15000_km_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-16 08:46:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

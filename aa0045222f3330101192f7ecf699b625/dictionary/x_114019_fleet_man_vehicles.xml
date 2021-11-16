@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_model" label="Vehicles" max_length="40" name="x_114019_fleet_man_vehicles" type="collection">
+        <element label="BIKE-MOTORBIKE-MICROCAR" max_length="40" name="bike_motorbike_microcar" type="boolean"/>
+        <element label="Brand" max_length="40" name="brand" type="string"/>
+        <element attributes="scale=5" label="COST-KM-15000-KM" max_length="23" name="cost_km_15000_km" type="decimal"/>
+        <element label="FRINGE-BENEFIT-25CK" max_length="20" name="fringe_benefit_25ck" type="decimal"/>
+        <element label="FRINGE-BENEFIT-30CK" max_length="20" name="fringe_benefit_30ck" type="decimal"/>
+        <element label="FRINGE-BENEFIT-50CK" max_length="20" name="fringe_benefit_50ck" type="decimal"/>
+        <element label="FRINGE-BENEFIT-60CK" max_length="20" name="fringe_benefit_60ck" type="decimal"/>
+        <element label="Fuel" max_length="40" name="fuel" type="string"/>
+        <element label="Model" max_length="256" name="model" type="string"/>
+        <element label="Series" max_length="40" name="series" type="string"/>
+    </element>
+</database>
