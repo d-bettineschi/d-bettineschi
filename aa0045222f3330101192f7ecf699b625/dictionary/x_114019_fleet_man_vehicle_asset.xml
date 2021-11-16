@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="alm_asset" label="Vehicle Asset" max_length="40" name="x_114019_fleet_man_vehicle_asset" type="collection">
+        <element label="Brand" max_length="40" name="brand" type="string"/>
+        <element label="Fuel" max_length="40" name="fuel" type="string"/>
+    </element>
+</database>
