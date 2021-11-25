@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:a90b4aea2f7730101192f7ecf699b60c</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-22 07:36:55</sys_created_on>
+        <sys_id>87ecaf542f0001101192f7ecf699b614</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>series</sys_name>
+        <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_87ecaf542f0001101192f7ecf699b614</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-22 07:36:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="HideShowSeries">3fdc67542f0001101192f7ecf699b696</ui_policy>
+        <variable>series</variable>
+        <variable_set display_value="VehicleModelDefinition">b4b8ce262f7730101192f7ecf699b6ce</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

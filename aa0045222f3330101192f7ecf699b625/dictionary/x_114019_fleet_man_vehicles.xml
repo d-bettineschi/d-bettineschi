@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_model" label="Vehicles" max_length="40" name="x_114019_fleet_man_vehicles" sizeclass="6714" type="collection">
+    <element extends="cmdb_model" label="Vehicles" max_length="40" name="x_114019_fleet_man_vehicles" sizeclass="6718" type="collection">
         <element label="BIKE-MOTORBIKE-MICROCAR" max_length="40" name="bike_motorbike_microcar" type="boolean"/>
         <element label="Brand" mandatory="true" max_length="40" name="brand" type="string"/>
         <element attributes="scale=5" label="COST-KM-15000-KM" max_length="23" name="cost_km_15000_km" type="decimal"/>
@@ -10,7 +10,7 @@
         <element label="Fuel" mandatory="true" max_length="40" name="fuel" type="string"/>
         <element label="Model" mandatory="true" max_length="256" name="model" type="string"/>
         <element label="Series" mandatory="true" max_length="40" name="series" type="string"/>
-        <element label="Year" max_length="40" name="year" type="integer"/>
+        <element attributes="format=none" label="Year" max_length="40" name="year" type="integer"/>
         <index name="index">
             <element name="brand"/>
             <element name="model"/>

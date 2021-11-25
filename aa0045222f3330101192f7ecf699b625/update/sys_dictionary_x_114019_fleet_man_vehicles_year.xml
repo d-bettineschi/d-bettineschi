@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>format=none</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-21 09:48:44</sys_created_on>
         <sys_id>d56103402f0041101192f7ecf699b643</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Year</sys_name>
         <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
         <sys_update_name>sys_dictionary_x_114019_fleet_man_vehicles_year</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-21 09:48:44</sys_updated_on>
+        <sys_updated_on>2021-11-21 10:24:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
