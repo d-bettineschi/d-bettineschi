@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_model" label="Vehicles" max_length="40" name="x_114019_fleet_man_vehicles" sizeclass="6718" type="collection">
+    <element extends="cmdb_model" label="Vehicles" max_length="40" name="x_114019_fleet_man_vehicles" sizeclass="6714" type="collection">
         <element label="BIKE-MOTORBIKE-MICROCAR" max_length="40" name="bike_motorbike_microcar" type="boolean"/>
         <element label="Brand" mandatory="true" max_length="40" name="brand" type="string"/>
         <element attributes="scale=5" label="COST-KM-15000-KM" max_length="23" name="cost_km_15000_km" type="decimal"/>
         <element label="FRINGE-BENEFIT-25CK" max_length="20" name="fringe_benefit_25ck" type="decimal"/>
         <element label="FRINGE-BENEFIT-30CK" max_length="20" name="fringe_benefit_30ck" type="decimal"/>
+        <element label="FRINGE-BENEFIT-40CK" max_length="20" name="fringe_benefit_40ck" type="decimal"/>
         <element label="FRINGE-BENEFIT-50CK" max_length="20" name="fringe_benefit_50ck" type="decimal"/>
         <element label="FRINGE-BENEFIT-60CK" max_length="20" name="fringe_benefit_60ck" type="decimal"/>
         <element label="Fuel" mandatory="true" max_length="40" name="fuel" type="string"/>
+        <element choice="3" default="Not applicable" label="Half-year " max_length="15" name="half_year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fuori contesto" language="it" sequence="10" value="not_applicable"/>
+                <element inactive_on_update="false" label="Not Applicable" sequence="10" value="not_applicable"/>
+                <element inactive_on_update="false" label="First half" sequence="20" value="first_half"/>
+                <element inactive_on_update="false" label="Primo semestre" language="it" sequence="20" value="first_half"/>
+                <element inactive_on_update="false" label="Second half" sequence="30" value="second_half"/>
+                <element inactive_on_update="false" label="Secondo semestre" language="it" sequence="30" value="second_half"/>
+            </choice>
+        </element>
         <element label="Model" mandatory="true" max_length="256" name="model" type="string"/>
         <element label="Series" mandatory="true" max_length="40" name="series" type="string"/>
         <element attributes="format=none" label="Year" max_length="40" name="year" type="integer"/>
