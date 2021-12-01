@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Request car accessories">ca5d239f2fc001101192f7ecf699b6aa</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-01 15:28:37</sys_created_on>
+        <sys_id>333fa79f2fc001101192f7ecf699b68a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Accessories.Request car accessories</sys_name>
+        <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
+        <sys_update_name>io_set_item_333fa79f2fc001101192f7ecf699b68a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-01 15:28:37</sys_updated_on>
+        <variable_set display_value="Accessories">491fafdf2fc001101192f7ecf699b6c3</variable_set>
+    </io_set_item>
+</record_update>

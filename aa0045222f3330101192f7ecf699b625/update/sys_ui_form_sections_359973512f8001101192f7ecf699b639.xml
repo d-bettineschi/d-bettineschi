@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="359973512f8001101192f7ecf699b639" sys_domain="global" table="x_114019_fleet_man_vehicle_asset" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 11:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>069973912f8001101192f7ecf699b695</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_114019_fleet_man_vehicle_asset" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">359973512f8001101192f7ecf699b639</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">469973912f8001101192f7ecf699b691</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 11:05:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 11:05:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a9973912f8001101192f7ecf699b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_114019_fleet_man_vehicle_asset" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">359973512f8001101192f7ecf699b639</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">0a9973912f8001101192f7ecf699b695</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 11:05:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 11:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>029973912f8001101192f7ecf699b68d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_114019_fleet_man_vehicle_asset" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">359973512f8001101192f7ecf699b639</sys_ui_form>
+            <sys_ui_section display_value="">029973912f8001101192f7ecf699b689</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 11:05:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 11:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>429973912f8001101192f7ecf699b691</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_114019_fleet_man_vehicle_asset" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">359973512f8001101192f7ecf699b639</sys_ui_form>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">069973912f8001101192f7ecf699b68d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 11:05:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 11:05:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a9973912f8001101192f7ecf699b6ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_114019_fleet_man_vehicle_asset" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">359973512f8001101192f7ecf699b639</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">4e9973912f8001101192f7ecf699b6a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 11:05:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 11:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>869973912f8001101192f7ecf699b688</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_114019_fleet_man_vehicle_asset" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">359973512f8001101192f7ecf699b639</sys_ui_form>
+            <sys_ui_section caption="Depreciation" display_value="Depreciation" name="x_114019_fleet_man_vehicle_asset" sys_domain="global" view="Default view">029973912f8001101192f7ecf699b683</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 11:05:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_114019_fleet_man_vehicle_asset</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 11:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>359973512f8001101192f7ecf699b639</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_114019_fleet_man_vehicle_asset</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
+            <sys_update_name>sys_ui_form_sections_359973512f8001101192f7ecf699b639</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 11:05:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
