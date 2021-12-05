@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Report a road accident">45fc842c2f9001101192f7ecf699b654</catalog_item>
+        <catalog_variable>IO:30beebd82f5001101192f7ecf699b694</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-04 20:22:10</sys_created_on>
+        <sys_id>da1f4ce02fd001101192f7ecf699b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_da1f4ce02fd001101192f7ecf699b671</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-04 20:22:10</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Fleet - hide the short description">047e04e02fd001101192f7ecf699b6f1</ui_policy>
+        <variable>short_description</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
