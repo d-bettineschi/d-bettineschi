@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Vehicle Asset</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Vehicle Asset</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Asset" name="Asset">a28d237047622100158b949b6c9a710d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-28 13:41:13</sys_created_on>
+        <sys_id>2de9f7d62f4001101192f7ecf699b6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Asset</sys_name>
+        <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
+        <sys_update_name>sys_wizard_answer_2de9f7d62f4001101192f7ecf699b6e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-28 13:41:13</sys_updated_on>
+        <table/>
+        <target_url>x_114019_fleet_man_vehicle_asset.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

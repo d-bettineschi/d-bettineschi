@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Request a Vehicle">895842aa2f7730101192f7ecf699b6e9</sc_cat_item>
+        <sc_cat_item display_value="Request a vehicle">895842aa2f7730101192f7ecf699b6e9</sc_cat_item>
         <sc_category display_value="Vehicles">2ed8776b2f4001101192f7ecf699b6a1</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

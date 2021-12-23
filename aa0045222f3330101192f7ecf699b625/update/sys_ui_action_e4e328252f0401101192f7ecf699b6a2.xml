@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>create _vehicle</action_name>
+        <action_name>create_vehicle</action_name>
         <active>true</active>
-        <client>false</client>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state != -5 &amp;&amp; current.state &lt; 3 &amp;&amp; current.approval != 'requested'</condition>
+        <condition>current.state != -5 &amp;&amp; current.state &lt; 3 &amp;&amp; current.approval != 'requested' &amp;&amp; current.parent.cat_item == '895842aa2f7730101192f7ecf699b6e9' &amp;&amp; current.cmdb_ci == '' ;</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>true</form_button_v2>
@@ -26,25 +26,49 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Create vehicle</name>
-        <onclick>createVehicle()</onclick>
+        <name>Create Vehicle</name>
+        <onclick>Create()</onclick>
         <order>100</order>
-        <script><![CDATA[createVehicle();
+        <script><![CDATA[function Create() {
+    var answer = confirm("You are going to create a new vehicle and assigned it to the user. You have to insert the plate number. Proceed ? ");
+    if (answer == true) {
+        gsftSubmit(null, g_form.getFormElement(), 'create_vehicle');
+		
+} else {
+    return false;
+}
+}
+
+if (typeof window == 'undefined')
+    createVehicle();
+
 function createVehicle(){
 
 	var ritm=new GlideRecord("sc_req_item");
 	ritm.get(current.request_item);
+	gs.info('ritm:'+current.request_item);
+	
+	var task=new GlideRecord("sc_task");
+	task.get(current.sys_id);
+	gs.info('task:'+current.sys_id);
 	
 	var asset = new GlideRecord("x_114019_fleet_man_vehicle_asset");
 	asset.initialize();
-	
 	asset.model_category='b6d5822a2f7730101192f7ecf699b66c';
-	asset.model=ritm.variables.series;
-	asset.assigned_to=ritm.requested_for;
+	asset.model=ritm.variables.series;	
+	ritm.configuration_item=asset.ci;
 	asset.insert();
 	
+	asset.reserved_for=ritm.requested_for;
+	asset.install_status='2';
+	asset.update();
 
+	task.cmdb_ci=asset.ci;
 	
+	task.update();
+	ritm.update();
+
+	action.setRedirectURL(asset);
 	
 }]]></script>
         <show_insert>true</show_insert>
@@ -57,15 +81,15 @@ function createVehicle(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e4e328252f0401101192f7ecf699b6a2</sys_id>
-        <sys_mod_count>30</sys_mod_count>
-        <sys_name>Create vehicle</sys_name>
+        <sys_mod_count>100</sys_mod_count>
+        <sys_name>Create Vehicle</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
         <sys_update_name>sys_ui_action_e4e328252f0401101192f7ecf699b6a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-02 14:30:23</sys_updated_on>
+        <sys_updated_on>2021-12-21 17:01:43</sys_updated_on>
         <table>sc_task</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

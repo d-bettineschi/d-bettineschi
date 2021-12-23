@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Asset Management" source="com.snc.asset_management">de11e24fa9263010c0a065f439e661d1</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 13:11:32</sys_created_on>
+        <sys_id>ad0086e22f7730101192f7ecf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 13:11:32</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

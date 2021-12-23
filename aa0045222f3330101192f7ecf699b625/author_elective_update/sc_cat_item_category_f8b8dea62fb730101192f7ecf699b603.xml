@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Request a Vehicle">895842aa2f7730101192f7ecf699b6e9</sc_cat_item>
+        <sc_category display_value="Fleet management">b0589aa62fb730101192f7ecf699b689</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 14:59:20</sys_created_on>
+        <sys_id>f8b8dea62fb730101192f7ecf699b603</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fleet management.Request a Vehicle</sys_name>
+        <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
+        <sys_update_name>sc_cat_item_category_f8b8dea62fb730101192f7ecf699b603</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-16 14:59:20</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</application>
+        <file_path/>
+        <instance_id>2f44284adbbec0d0b847ac44d49619fa</instance_id>
+        <instance_name>dev99721</instance_name>
+        <name>sc_cat_item_category_f8b8dea62fb730101192f7ecf699b603</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request a Vehicle">895842aa2f7730101192f7ecf699b6e9</sc_cat_item><sc_category display_value="Fleet management">b0589aa62fb730101192f7ecf699b689</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-16 14:59:20</sys_created_on><sys_id>f8b8dea62fb730101192f7ecf699b603</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fleet management.Request a Vehicle</sys_name><sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package><sys_policy/><sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope><sys_update_name>sc_cat_item_category_f8b8dea62fb730101192f7ecf699b603</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-16 14:59:20</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>923685680</payload_hash>
+        <record_name>Fleet management.Request a Vehicle</record_name>
+        <reverted_from/>
+        <source>ecc4bf672f4001101192f7ecf699b67b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-16 14:59:20</sys_created_on>
+        <sys_id>b0b8dea62fb730101192f7ecf699b607</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17d294275170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-02 10:48:48</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>f8b8dea65fb730100306f58a1b4b0706</update_guid>
+        <update_guid_history>f8b8dea65fb730100306f58a1b4b0706:923685680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Fleet management.Request a Vehicle">a0387f2b2f4001101192f7ecf699b6e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-02 10:46:10</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>198851fc11f64ca88e28b81992b809a4</sys_id>
+        <sys_metadata>f8b8dea62fb730101192f7ecf699b603</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fleet management.Request a Vehicle</sys_name>
+        <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
+        <sys_scope_delete display_value="">873b823422b24c35a2191eaeddc2b2f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_f8b8dea62fb730101192f7ecf699b603</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_f8b8dea62fb730101192f7ecf699b603">b0b8dea62fb730101192f7ecf699b607</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-02 10:46:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

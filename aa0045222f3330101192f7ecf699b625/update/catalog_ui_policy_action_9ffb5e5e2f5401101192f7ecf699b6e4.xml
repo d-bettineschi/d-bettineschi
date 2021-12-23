@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:b5985a9a2f5401101192f7ecf699b656</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-10 17:06:47</sys_created_on>
+        <sys_id>9ffb5e5e2f5401101192f7ecf699b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>service</sys_name>
+        <sys_package display_value="Fleet Management" source="x_114019_fleet_man">aa0045222f3330101192f7ecf699b625</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Management">aa0045222f3330101192f7ecf699b625</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_9ffb5e5e2f5401101192f7ecf699b6e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-10 17:06:47</sys_updated_on>
+        <table/>
+        <ui_policy display_value="FLEET-emptyplaceVAR">57dbda1e2f5401101192f7ecf699b6e1</ui_policy>
+        <variable>service</variable>
+        <variable_set display_value="Return">f255069a2f1401101192f7ecf699b63d</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -7,7 +7,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:a90b4aea2f7730101192f7ecf699b60cISNOTEMPTY^EQ</catalog_conditions>
-        <catalog_item display_value="Request a Vehicle">895842aa2f7730101192f7ecf699b6e9</catalog_item>
+        <catalog_item display_value="Request a vehicle">895842aa2f7730101192f7ecf699b6e9</catalog_item>
         <conditions/>
         <description/>
         <global>true</global>

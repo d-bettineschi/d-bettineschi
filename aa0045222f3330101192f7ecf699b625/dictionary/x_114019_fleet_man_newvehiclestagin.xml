@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="NewVehicleStagin" max_length="40" name="x_114019_fleet_man_newvehiclestagin" sizeclass="0" type="collection">
+    <element extends="sys_import_set_row" max_length="40" name="x_114019_fleet_man_newvehiclestagin" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=BIKE-MOTORBIKE-MICROCAR" label="BIKE-MOTORBIKE-MICROCAR" max_length="40" name="u_bike_motorbike_microcar" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=BRAND" label="BRAND" max_length="40" name="u_brand" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=COST-KM-15000-KM" label="COST-KM-15000-KM" max_length="40" name="u_cost_km_15000_km" type="string"/>
@@ -9,7 +9,7 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FRINGE-BENEFIT-50CK" label="FRINGE-BENEFIT-50CK" max_length="40" name="u_fringe_benefit_50ck" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FRINGE-BENEFIT-60CK" label="FRINGE-BENEFIT-60CK" max_length="40" name="u_fringe_benefit_60ck" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=FUEL" label="FUEL" max_length="40" name="u_fuel" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Half-year" label="Half-year " max_length="40" name="u_half_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Half-year" label="Half-year" max_length="40" name="u_half_year" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=MODEL" label="MODEL" max_length="45" name="u_model" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SERIES" label="SERIES" max_length="40" name="u_series" type="string"/>
         <element attributes="import_attribute_name=YEAR" label="YEAR" max_length="40" name="u_year" type="integer"/>

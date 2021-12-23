@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Request a Vehicle">895842aa2f7730101192f7ecf699b6e9</cat_item>
+        <cat_item display_value="Request a vehicle">895842aa2f7730101192f7ecf699b6e9</cat_item>
         <cat_variable>IO:429a0aaa2f7730101192f7ecf699b6d0</cat_variable>
         <condition/>
         <description/>
